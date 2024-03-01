@@ -30,6 +30,10 @@ def main():
     print("최솟값: ", np.min(array_2d))
     print("표준 편차: ", np.std(array_2d))
 
+    # 배열의 모양 변경
+    print("\n5. 배열의 모양 변경: ")
+    reshaped_array = np.reshape(array_2d, (1, 9))  # 3x3 배열을 1x9 배열로 변경
+    print("변경된 배열: ", reshaped_array)
 
 
 if __name__ == "__main__":
