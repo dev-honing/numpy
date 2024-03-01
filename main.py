@@ -34,6 +34,11 @@ def main():
     print("\n5. 배열의 모양 변경: ")
     reshaped_array = np.reshape(array_2d, (1, 9))  # 3x3 배열을 1x9 배열로 변경
     print("변경된 배열: ", reshaped_array)
+    
+    # 배열의 전치 행렬
+    print("\n6. 배열의 전치 행렬: ")
+    transposed_array = np.transpose(array_2d)
+    print("전치 행렬: ", transposed_array)
 
 
 if __name__ == "__main__":
